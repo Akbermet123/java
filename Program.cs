@@ -20,7 +20,7 @@ namespace Test1
 
         IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl("https://www.dcb.kg/ru/");
-
+        global::System.Console.WriteLine("hello");
                 
         }
     }
