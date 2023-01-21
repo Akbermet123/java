@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Test1.pageobjectmodel
 {
-    internal class blabla
+    public class blabla
     {
+        System.Console.WriteLine("save");
+
     }
 }
