@@ -9,19 +9,25 @@ using System.Runtime.InteropServices;
 
 namespace Test1
 {
-     class Program
+    class Program
     {
-        private IWebDriver driver;
-        [SetUp]
-        public void Set
 
-]
+        private void Write()
+        {
+            var class1 = new BaseClass1();
+            class1.SaHello();
+
+            var class2 = new Class2();
+            class2.SaHello();
+
+            var cl1 = StaticClass1.SayHi();
+
+            var drv=class1.GetDriverInsance();
 
 
-        IWebDriver driver = new ChromeDriver();
-            driver.Navigate().GoToUrl("https://www.dcb.kg/ru/");
-        global::System.Console.WriteLine("hello");
-                
         }
+
+
     }
 }
+
